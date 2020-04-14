@@ -1,0 +1,28 @@
+{
+  "name": "skillingsite",
+  "version": "1.0.0",
+  "description": "Creating this project to improve",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriCirino/skilling.git"
+  },
+  "keywords": [
+    "skilling",
+    "css",
+    "html",
+    "todoapp"
+  ],
+  "author": "Yuri Cirino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuriCirino/skilling/issues"
+  },
+  "homepage": "https://github.com/YuriCirino/skilling#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
