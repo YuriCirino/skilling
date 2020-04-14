@@ -4,17 +4,24 @@
 main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 1fr 1fr 1fr;
     gap: 15px 15px;
-    grid-area: 2 / 2 / 5 / 5;
+    grid-area: 2 / 1 / 6 / 6;
+    overflow-x:hidden ;
+    transform: scaleX(1.1);
 
 }
-
-.card1{
-    grid-area: 1 / 1 / span 2 / span 1;
-    background-color: blue;
+.skillContainer{
+    grid-area: 2 / 1/ 6/ 5;
+    background-color: white;
+    box-shadow: inset 0px 0px 5px 0px rgba(71,71,71,1);
 }
-.card2{
-    grid-area: 1 / 2 / span 2 / span 1;
-    background-color: red;
+.navSkills{
+   grid-area: 1 / 1/ 2 / 5;
+   
+}
+
+#skill1{
+background-color: blue;
+grid-area: 2 / 2 / 4 / 4 ;
 }
