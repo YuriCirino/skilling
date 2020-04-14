@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 15px 15px;
+    grid-area: 2 / 2 / 5 / 5;
+
+}
+
+.card1{
+    grid-area: 1 / 1 / span 2 / span 1;
+    background-color: blue;
+}
+.card2{
+    grid-area: 1 / 2 / span 2 / span 1;
+    background-color: red;
+}
